@@ -1,0 +1,82 @@
+<svg width="1200" height="44" viewBox="0 0 1200 44"
+xmlns="http://www.w3.org/2000/svg"
+role="img" aria-label="Animated section divider">
+  <defs>
+    <linearGradient id="line" x1="70" y1="22" x2="1130" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2F6FED" stop-opacity="0.15"/>
+      <stop offset="0.22" stop-color="#2F6FED" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#7B61FF" stop-opacity="0.95"/>
+      <stop offset="0.78" stop-color="#14B8A6" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#14B8A6" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <!-- quiet baseline -->
+  <line x1="70" y1="22" x2="1130" y2="22"
+        stroke="#3A414D" stroke-width="1" opacity="0.9"/>
+
+  <!-- colored signal -->
+  <line x1="95" y1="22" x2="1105" y2="22"
+        stroke="url(#line)" stroke-width="1.4"/>
+
+  <!-- subtle anchor nodes -->
+  <circle cx="95" cy="22" r="2" fill="#2F6FED" opacity="0.75"/>
+  <circle cx="600" cy="22" r="2" fill="#7B61FF" opacity="0.75"/>
+  <circle cx="1105" cy="22" r="2" fill="#14B8A6" opacity="0.75"/>
+
+  <!-- moving dots, different speeds -->
+  <g filter="url(#glow)">
+    <circle r="3.8" fill="#2F6FED">
+      <animateMotion dur="4.8s" repeatCount="indefinite" path="M95,22 L1105,22"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="3.2" fill="#7B61FF">
+      <animateMotion dur="6.2s" begin="0.7s" repeatCount="indefinite" path="M95,22 L1105,22"/>
+      <animate attributeName="opacity" values="0;0.9;0.9;0" dur="6.2s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="3.4" fill="#14B8A6">
+      <animateMotion dur="5.5s" begin="1.9s" repeatCount="indefinite" path="M1105,22 L95,22"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="5.5s" begin="1.9s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="2.8" fill="#6D8DFF">
+      <animateMotion dur="7s" begin="2.3s" repeatCount="indefinite" path="M1105,22 L95,22"/>
+      <animate attributeName="opacity" values="0;0.85;0.85;0" dur="7s" begin="2.3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="2.6" fill="#A78BFA">
+      <animateMotion dur="8.2s" begin="0.2s" repeatCount="indefinite" path="M95,22 L1105,22"/>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="8.2s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="2.6" fill="#2DD4BF">
+      <animateMotion dur="9s" begin="1.1s" repeatCount="indefinite" path="M1105,22 L95,22"/>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="9s" begin="1.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- occasional collision pulses around the center -->
+  <circle cx="600" cy="22" r="2" fill="#FFFFFF" opacity="0">
+    <animate attributeName="r" values="2;8;2" dur="1.1s" begin="2.15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="1.1s" begin="2.15s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="600" cy="22" r="2" fill="#A78BFA" opacity="0">
+    <animate attributeName="r" values="2;13;2" dur="1.1s" begin="2.15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.25;0" dur="1.1s" begin="2.15s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="600" cy="22" r="1.5" fill="#FFFFFF" filter="url(#soft)" opacity="0.35"/>
+</svg>
