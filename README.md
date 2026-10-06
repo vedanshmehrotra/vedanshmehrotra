@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/github-banner.png" alt="Vedansh Mehrotra" width="100%">
+  <img src="./assets/GitHub Banner.png" alt="Vedansh Mehrotra" width="100%">
 </p>
 
 <p align="center">
@@ -25,11 +25,11 @@
   &nbsp;·&nbsp;
   <strong>02 INTERNSHIPS</strong>
   &nbsp;·&nbsp;
-  <a href="./credentials.md"><strong>06 AWS EDUCATE BADGES</strong></a>
+  <a href="assets/credentials.md"><strong>06 AWS EDUCATE BADGES</strong></a>
 </p>
 
 <p align="center">
-  <img src="./assets/section-divider.svg" alt="" width="92%">
+  <img src="./assets/section-divider-dynamic.svg" alt="" width="92%">
 </p>
 
 # Projects
@@ -58,7 +58,7 @@ A full-stack platform that analyzes Python solutions through AST-derived program
 </div>
 
 <p align="center">
-  <img src="./assets/section-divider.svg" alt="" width="92%">
+  <img src="./assets/section-divider-dynamic.svg" alt="" width="92%">
 </p>
 
 <div align="center">
@@ -86,7 +86,7 @@ A complaint-routing system combining text classification and rule-based logic to
 </div>
 
 <p align="center">
-  <img src="./assets/section-divider.svg" alt="" width="92%">
+  <img src="./assets/section-divider-dynamic.svg" alt="" width="92%">
 </p>
 
 <div align="center">
@@ -113,7 +113,7 @@ A reusable deployment workflow for Flask applications covering automated testing
 </div>
 
 <p align="center">
-  <img src="./assets/section-divider.svg" alt="" width="92%">
+  <img src="./assets/section-divider-dynamic.svg" alt="" width="92%">
 </p>
 
 # Technologies
@@ -187,7 +187,7 @@ MySQL Workbench · MongoDB Compass · mongosh · XAMPP · Cursor
 </details>
 
 <p align="center">
-  <img src="./assets/section-divider.svg" alt="" width="92%">
+  <img src="./assets/section-divider-dynamic.svg" alt="" width="92%">
 </p>
 
 <p align="center">
