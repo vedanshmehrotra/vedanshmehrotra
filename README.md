@@ -1,78 +1,63 @@
+<p align="center">
+  <img src="./assets/GitHub Banner.png" alt="Vedansh Mehrotra GitHub banner" width="100%">
+</p>
+
 # Vedansh Mehrotra
 
 ### AI/ML Undergraduate · Backend · Cloud & DevOps
 
 I build practical systems where machine learning, software engineering, and cloud infrastructure meet.
 
-Right now I'm working on **PathForge**, an automated Python code-analysis platform, while continuing to build ML/NLP systems and experiment with AWS deployment workflows.
+Right now, I'm working on **PathForge**, an automated Python code-analysis platform, while continuing to build ML/NLP systems and work with AWS deployment workflows.
 
 [LinkedIn](https://www.linkedin.com/in/vedansh-mehrotra-05b41331b/)
 
 ---
 
-## ⚡ What I'm building
+## Now
 
-    idea
-      ↓
-    prototype
-      ↓
-    test
-      ↓
-    break something
-      ↓
-    understand why
-      ↓
-    build it properly
+**PathForge** is my current focus, a full-stack platform for analyzing Python solutions through AST-derived program structure and identifying algorithmic strategies.
 
-I tend to learn technologies by putting them inside a real system rather than studying them in isolation.
+Alongside that, I'm working deeper into **AWS, Docker, CI/CD, monitoring, and deployment workflows**, mainly by building systems rather than following isolated tutorials.
 
-That usually means writing the application, testing the weak points, figuring out what breaks, and then improving the design.
+> **Build → test → break → understand → improve**
 
 ---
 
-## 🚧 Currently working on
+## Selected Work
 
-### PathForge
-**Automated Code Analysis & Algorithm Strategy Detection**
+### 01 / PathForge
+**Automated Code Analysis & Algorithm Strategy Detection** · `IN PROGRESS`
 
-A full-stack platform that analyzes Python solutions using AST-derived structural evidence to identify algorithmic strategies such as sliding window, binary search, dynamic programming, and monotonic stacks.
+A full-stack platform for analyzing Python solutions through AST-derived program structure and identifying algorithmic strategies such as sliding window, binary search, dynamic programming, and monotonic stacks.
 
-Currently refining the analysis pipeline and evaluation process.
+**Built with:** Python · Flask · Next.js · TypeScript · PostgreSQL
 
-→ [Repository](https://github.com/vedanshmehrotra/PathForge-v2)
-
-### Cloud deployment workflows
-
-Building and refining my understanding of **AWS, Docker, GitHub Actions, CI/CD, health checks, monitoring, and rollback strategies** through hands-on deployment systems.
+[View repository →](https://github.com/vedanshmehrotra/PathForge-v2)
 
 ---
 
-## 🔍 Selected work
+### 02 / ResolveFlow
+**Hybrid ML-Based Complaint Triage System** · `COMPLETED`
 
-### PathForge
-**Python · Flask · Next.js · TypeScript · PostgreSQL**
+A complaint-routing system that combines text classification with rule-based logic to identify issue types, assess urgency, and route hostel maintenance complaints to the appropriate operational teams.
 
-Code-analysis platform designed to identify algorithmic strategies from program structure rather than relying only on textual or keyword matching.
+**Built with:** Python · Scikit-learn · Flask · NLP · SQLite
 
----
-
-### ResolveFlow
-**Python · Scikit-learn · Flask · NLP**
-
-Hybrid ML-based complaint triage system combining text classification with rule-based routing to classify hostel maintenance complaints and direct them toward appropriate operational teams.
-
-→ [Repository](https://github.com/vedanshmehrotra/ResolveFlow)
+[View repository →](https://github.com/vedanshmehrotra/ResolveFlow)
 
 ---
 
-### Automated CI/CD Deployment Framework
-**AWS · Docker · GitHub Actions · ECR · EC2**
+### 03 / Automated CI/CD Deployment Framework
+**Cloud Application Deployment & Rollback** · `INTERNSHIP PROJECT`
 
-Deployment framework for Flask applications covering automated testing, container builds, image versioning, deployment, health verification, monitoring, alerts, and rollback handling.
+A reusable deployment workflow for Flask applications covering automated testing, Docker image builds, Amazon ECR, EC2 deployment, health verification, monitoring, alerts, and rollback to a stable release.
+
+**Built with:** AWS · Docker · GitHub Actions · ECR · EC2 · Systems Manager · CloudWatch · SNS
 
 ---
 
-## 🧰 Technical focus
+## Technical Focus
 
 **Languages**
 
@@ -100,7 +85,7 @@ Git · GitHub
 
 ---
 
-## 💼 Experience
+## Experience
 
 **Software Development Intern, Cloud & DevOps — Think Computers**
 
@@ -112,7 +97,7 @@ Worked on REST APIs, relational data models, validation, access control, and bac
 
 ---
 
-## 🎯 What I care about
+## How I Like to Build
 
 I'm particularly interested in the part of engineering where a model or application has to become an actual system:
 
